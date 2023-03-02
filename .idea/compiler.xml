@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="spring-cloud-msa.core.main" />
+        <module name="spring-cloud-msa.app.user-service.main" />
+        <module name="spring-cloud-msa.app.config-service.main" />
+        <module name="spring-cloud-msa.app.discovery-service.main" />
+        <module name="spring-cloud-msa.app.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.0.3/fadcb8f1558db61596dec6e523d66305410dbcdc/spring-boot-configuration-processor-3.0.3.jar" />
+        </processorPath>
+        <module name="spring-cloud-msa.app.gateway-service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="config-service" target="17" />
+      <module name="config-service.aot" target="17" />
+      <module name="config-service.aotTest" target="17" />
+      <module name="config-service.main" target="17" />
+      <module name="config-service.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

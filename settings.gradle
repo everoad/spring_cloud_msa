@@ -1,0 +1,4 @@
+rootProject.name = 'spring-cloud-msa'
+
+include('core')
+include('app:config-service', 'app:discovery-service', 'app:gateway-service', 'app:user-service')

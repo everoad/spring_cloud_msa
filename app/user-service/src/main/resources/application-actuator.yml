@@ -1,0 +1,6 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, busrefresh, health, beans, info, prometheus, metrics

@@ -1,0 +1,22 @@
+server:
+  port: 0
+  servlet:
+    context-path: /user-service
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: user-service
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+  kafka:
+    bootstrap-servers: http://localhost:9092
+  config:
+    import:
+      - application-actuator.yml
+      - application-eureka.yml
+      - application-db.yml
