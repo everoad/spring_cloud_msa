@@ -1,8 +1,9 @@
 package com.example.userservice;
 
-import com.example.core.Member;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/users")
@@ -14,10 +15,9 @@ public class UserController {
         return "Hello World!";
     }
 
-    @GetMapping("/{user_id}")
-    public Member getMember(@PathVariable("user_id") String userId) {
-        Member member = new Member();
-        member.setId(userId);
-        return member;
-    }
+//    @GetMapping("/{user_id}")
+//    public SessionUser getMember(@CurrentUser SessionUser sessionUser, @PathVariable("user_id") String userId) {
+//        sessionUser.setId(userId);
+//        return sessionUser;
+//    }
 }

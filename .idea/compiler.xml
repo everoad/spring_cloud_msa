@@ -7,11 +7,15 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
         </processorPath>
-        <module name="spring-cloud-msa.core.main" />
+        <module name="spring-cloud-msa.app.query-service.main" />
         <module name="spring-cloud-msa.app.user-service.main" />
+        <module name="spring-cloud-msa.modules.core.main" />
         <module name="spring-cloud-msa.app.config-service.main" />
         <module name="spring-cloud-msa.app.discovery-service.main" />
         <module name="spring-cloud-msa.app.main" />
+        <module name="spring-cloud-msa.app.command-service.main" />
+        <module name="spring-cloud-msa.modules.security.main" />
+        <module name="spring-cloud-msa.modules.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />

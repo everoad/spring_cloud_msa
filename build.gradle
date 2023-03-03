@@ -1,10 +1,8 @@
 buildscript {
-    ext {
-        set('springCloudVersion', "2022.0.1")
-    }
     repositories {
-        mavenCentral()
-        maven { url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates' }
+        maven {
+            url 'https://biskitnexus.smilegate.net/repository/private-repository/'
+        }
     }
 }
 
@@ -17,8 +15,9 @@ plugins {
 
 allprojects {
     repositories {
-        mavenCentral()
-        maven { url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates' }
+        maven {
+            url 'https://biskitnexus.smilegate.net/repository/private-repository/'
+        }
     }
 }
 

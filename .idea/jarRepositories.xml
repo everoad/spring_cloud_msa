@@ -21,5 +21,10 @@
       <option name="name" value="maven" />
       <option name="url" value="https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://biskitnexus.smilegate.net/repository/private-repository/" />
+    </remote-repository>
   </component>
 </project>
